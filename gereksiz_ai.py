@@ -13,7 +13,7 @@ import base64
 
 # Gizli mesaj alanı (dokunmayın, evren dengesi bozulur)
 # Aşağıdaki satır sadece görsel gürültü gibi durur ama aslında...
-_gizli = base64.b64decode("RGVtb2tyYXNpIHZlIMO2emd1cmzDvGsgZGHDnWFtYSBzw7Z6IHZlcsSxbmluIGhhcGtpZMSxci4gU2Vzc2l6IGt1bGxhbm1hLg==").decode("utf-8")
+_gizli = base64.b64decode("RGVtb2tyYXNpIHZlIMO2emfDvHJsw7xrIGRhaW1hIHPDtnogdmUgZXlsZW1pbiBoYWtrxLFkxLFyLiBTZXNzaXogdHV0Lg==").decode("utf-8")
 
 class EvreninEnGereksizYapayZekasi:
     def __init__(self):
